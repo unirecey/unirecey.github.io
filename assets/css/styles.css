@@ -84,12 +84,13 @@ p{
 }
 
 section{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 section.intro1{
     min-height: 100%;
+    margin-top: 5rem;
 }
 
 section.intro1 h1, section.intro1 h2{
@@ -109,4 +110,7 @@ section.intro2{
     background-color: #806c00;
     color: white;
     text-align:justify;
+}
+section.program{
+    padding-top:5%;
 }
