@@ -59,9 +59,6 @@ html, body
 
 html{
     background-color:white;
-}
-
-h1, h2{
     font-family: 'NoirMedium', Arial, sans-serif;
 }
 
@@ -80,7 +77,6 @@ h2{
 h3{
     font-size: 2.0rem;
     line-height: 2.4rem;
-    font-family: 'NoirMedium', Arial, sans-serif;
 }
 
 p{
