@@ -8,13 +8,82 @@
     --stem-width: 4px;
     --pointer-width: 4px;
     --pointer-space: 15px;
+    --color-h1: black;
+    --color-h2: black;
+    --color-h3: black;
     
 }
 
 html, body
 { 
-    height: 100%; margin: 0; 
+    height: 100%;
 }
+
+@media screen and (max-width: 811px) {
+    html{
+        font-size: 11px;
+    }
+}
+
+
+html{
+    background-color:white;
+    font-family: 'NoirMedium', Arial, sans-serif;
+}
+
+div.image{
+    background-image: url("../img/village.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:7rem;
+    height: 70%;
+    width: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    line-height: 2.6rem;
+    text-align: center;
+    color: var(--color-h1)
+}
+
+h2{
+    font-size: 2.8rem;
+    text-transform: lowercase;
+    color:var(--color-h2);
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: var(--color-h3);
+    text-align: center;
+    text-transform: lowercase;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align:justify;
+    line-height: 1.7rem;
+}
+
+section{
+    width: 49rem;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 811px) {
+    section{
+        width: 30rem;
+    }
+
+/* to delete */
 
 .arrow {
     width: var(--stem-width);
@@ -55,63 +124,4 @@ html, body
     height: 20px;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-}
-
-html{
-    background-color:white;
-    font-family: 'NoirMedium', Arial, sans-serif;
-}
-
-h1{
-    font-size: 3.7rem;
-    text-transform: uppercase;
-    line-height: 2.6rem;
-    color: #8e5000;
-}
-
-h2{
-    font-size: 2.8rem;
-    color: #8e6400;
-    text-transform: lowercase;
-}
-h3{
-    font-size: 2rem;
-    line-height: 2.4rem;
-}
-
-p{
-    font-size: 1.5rem;
-}
-
-section{
-    padding-left: 8%;
-    padding-right: 8%;
-}
-
-section.intro1{
-    min-height: 100%;
-    margin-top: 5rem;
-}
-
-section.intro1 h1, section.intro1 h2{
-    text-align: center;
-}
-
-section.intro1 h3{
-    margin-top: 4rem;
-    text-align:justify;
-    color: #8e7800;
-}
-section.intro1 div.ref{
-    text-align: right;
-}
-section.intro2{
-    padding-top:10%;
-    padding-bottom:10%;
-    background-color: #806c00;
-    color: white;
-    text-align:justify;
-}
-section.program{
-    padding-top:5%;
 }
