@@ -62,8 +62,6 @@ h3{
     font-size: 2rem;
     line-height: 2.4rem;
     color: var(--color-h3);
-    text-align: center;
-    text-transform: lowercase;
 }
 
 p{
@@ -102,10 +100,21 @@ p.program-info{
     margin-bottom: 4rem;
 }
 
+section.activity{
+    margin-top:5rem;
+}
+
 div.logo{
     display: flex;
     justify-content: center;
     margin: 4rem;
+}
+p.facilitator{
+    font-style: italic;
+}
+
+.links a{
+    font-size:1.3rem;
 }
 
 @media screen and (max-width: 811px) {
