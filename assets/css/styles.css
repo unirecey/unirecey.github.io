@@ -102,6 +102,12 @@ p.program-info{
     margin-bottom: 4rem;
 }
 
+div.logo{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
 @media screen and (max-width: 811px) {
     section{
         width: 30rem;
