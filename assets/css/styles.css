@@ -2,7 +2,6 @@
     font-family: "NoirMedium";
     src: url("../fonts/Noir_medium.otf") format(opentype) tech(color-COLRv1);
 }
-
 :root {
     --stem-height: 50px;
     --stem-width: 4px;
@@ -13,25 +12,20 @@
     --color-h3: black;
     
 }
-
 html, body
 { 
     height: 100%;
 }
-
 @media screen and (max-width: 811px) {
     html{
         font-size: 11px;
     }
 }
-
-
 html{
     background-color:white;
     font-family: 'NoirMedium', Arial, sans-serif;
 }
-
-div.image{
+/* div.image{
     background-image: url("../img/village.jpg");
     display: block;
     margin-left: auto;
@@ -41,8 +35,7 @@ div.image{
     width: 20rem;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
+} */
 h1{
     font-size: 3.7rem;
     text-transform: uppercase;
@@ -50,48 +43,40 @@ h1{
     text-align: center;
     color: var(--color-h1)
 }
-
 h2{
     font-size: 2.8rem;
     /* text-transform: lowercase; */
     color:var(--color-h2);
     text-align: center;
 }
-
 h3{
     font-size: 2rem;
     line-height: 2.4rem;
     color: var(--color-h3);
 }
-
 p{
     font-size: 1.2rem;
 }
-
-span.ref{
-    font-style: italic;
-}
-
 section{
     width: 49rem;
     margin: auto;
+    margin-bottom:5rem;
 }
-
+span.ref{
+    font-style: italic;
+}
 div.links{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5rem;
 }
-
 section.citation{
     text-align:right;
 }
-
 section.presentation{
     margin-top: 10rem;
     text-align: justify;
 }
-
 section.program{
     margin-top:5rem;
 }
@@ -99,11 +84,9 @@ p.program-info{
     font-style: italic;
     margin-bottom: 4rem;
 }
-
 section.activity{
     margin-top:5rem;
 }
-
 div.logo{
     display: flex;
     justify-content: center;
@@ -112,56 +95,19 @@ div.logo{
 p.facilitator{
     font-style: italic;
 }
-
 .links a{
     font-size:1.3rem;
+}
+.program p a{
+    color: black;
+    text-decoration: none;
+}
+.program p a:hover{
+    color:blueviolet;
 }
 
 @media screen and (max-width: 811px) {
     section{
         width: 30rem;
     }
-}
-
-/* to delete */
-
-.arrow {
-    width: var(--stem-width);
-    height: var(--stem-height);
-    margin: 1% auto;
-    border-radius: 3px;
-    background-color: black;
-    background: linear-gradient(to bottom, rgba(255,255,255,0), black 75%);
-    /* -webkit-animation: 1s soft-blink infinite alternate;
-    animation: 1s soft-blink infinite alternate; */
-    position: relative;
-    /* opacity: 0; */
-}
-  
-@-webkit-keyframes soft-blink {
-    0% { opacity: 0; }
-    50% { opacity: 0; }
-    100% { opacity: 0.8; }
-    }
-
-@keyframes soft-blink {
-    0% { opacity: 0; }
-    50% { opacity: 0; }
-    100% { opacity: 0.8; }
-}
-
-.arrow:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: -12px;
-    border-bottom: var(--pointer-width) solid black;
-    border-right: var(--pointer-width) solid black;
-    border-top: var(--pointer-width) solid transparent;
-    border-left: var(--pointer-width) solid transparent;
-    border-radius: 4px;
-    width: 20px;
-    height: 20px;
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
 }
