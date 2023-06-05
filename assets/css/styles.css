@@ -80,8 +80,11 @@ section.citation{
     text-align: justify;
 }
 section.presentation{
-    margin-top: 7rem;
+    margin-top: 5rem;
     text-align: justify;
+}
+section.practical-info{
+    margin-top: 5rem;
 }
 section.program{
     margin-top:5rem;
@@ -91,7 +94,6 @@ section.title{
 }
 p.program-info{
     font-style: italic;
-    margin-bottom: 4rem;
 }
 section.activity{
     margin-top:5rem;
