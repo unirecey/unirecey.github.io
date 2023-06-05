@@ -2,6 +2,10 @@
     font-family: "NoirMedium";
     src: url("../fonts/Noir_medium.otf") format(opentype) tech(color-COLRv1);
 }
+@font-face {
+    font-family: "NoirRegular";
+    src: url("../fonts/Noir_regular.otf") format(opentype) tech(color-COLRv1);
+}
 :root {
     --stem-height: 50px;
     --stem-width: 4px;
@@ -55,10 +59,12 @@ h3{
     color: var(--color-h3);
 }
 p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    font-family: 'NoirRegular', Arial, sans-serif;
 }
 section{
-    width: 49rem;
+    width: 55rem;
     margin: auto;
     margin-bottom:5rem;
 }
@@ -71,14 +77,17 @@ div.links{
     margin-top: 5rem;
 }
 section.citation{
-    text-align:right;
+    text-align: justify;
 }
 section.presentation{
-    margin-top: 10rem;
+    margin-top: 7rem;
     text-align: justify;
 }
 section.program{
     margin-top:5rem;
+}
+section.title{
+    width: 100%;
 }
 p.program-info{
     font-style: italic;
