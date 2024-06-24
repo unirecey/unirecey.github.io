@@ -92,6 +92,10 @@ section.program{
 section.title{
     width: 100%;
 }
+section.sub-title{
+    width: 100%;
+    text-align: center;
+}
 p.program-info{
     font-style: italic;
 }
