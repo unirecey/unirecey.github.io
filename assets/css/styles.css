@@ -124,5 +124,14 @@ p.facilitator{
 @media screen and (max-width: 811px) {
     section{
         width: 30rem;
+
     }
+}
+
+div.image-centered{
+    text-align:center;
+    width: 100%;
+}
+img.poster{
+    width: inherit;
 }
