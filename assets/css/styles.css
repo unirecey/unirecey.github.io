@@ -135,3 +135,17 @@ div.image-centered{
 img.poster{
     width: inherit;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: top;
+}
+th {
+    background-color: #f2f2f2;
+}
